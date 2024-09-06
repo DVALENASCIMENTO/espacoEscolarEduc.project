@@ -11,7 +11,9 @@
     <header>
         <h1 id="header-title">Espaço Escolar Educ</h1>
         <p>Direcionando e Educando Mentes Brilhantes</p>
+        <button id="theme-toggle">Alternar Tema</button>
     </header>
+    
     <main>
         <section id="sobre">
             <h2>Sobre o Espaço Escolar Educ</h2>
@@ -21,17 +23,31 @@
         <section id="metodologia">
             <h2>Metodologia de Ensino</h2>
             <p id="metodologia-content">Adotamos uma abordagem personalizada e interativa, usando tecnologia e avaliações diagnósticas para oferecer o melhor suporte aos nossos alunos.</p>
-            <button id="change-content">Mudar Texto</button>
+            <button id="change-content">Saiba Mais</button>
         </section>
 
-        <section id="diferenciais">
-            <h2>Diferenciais</h2>
-            <ul>
-                <li>Corpo Docente Especializado</li>
-                <li>Ambiente Acolhedor</li>
-                <li>Suporte Emocional e Motivacional</li>
-                <li>Flexibilidade de Horários</li>
-            </ul>
+        <!-- Modal de Contato -->
+        <button id="open-modal">Contato</button>
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <span id="close-modal" class="close">&times;</span>
+                <h2>Entre em Contato</h2>
+                <p>Envie sua mensagem para: contato@espacoescolar.com.br</p>
+                <p>Telefone: (00) 0000-0000</p>
+            </div>
+        </div>
+
+        <!-- Seção FAQ com Acordeão -->
+        <section id="faq">
+            <h2>FAQ - Perguntas Frequentes</h2>
+            <div class="faq-item">Qual a duração das aulas?</div>
+            <div class="faq-content">
+                <p>As aulas têm duração de 1 hora, com possibilidade de aulas extras conforme a necessidade do aluno.</p>
+            </div>
+            <div class="faq-item">Qual o número de alunos por turma?</div>
+            <div class="faq-content">
+                <p>Nossas turmas são pequenas, com até 5 alunos, para garantir um atendimento personalizado.</p>
+            </div>
         </section>
     </main>
 
